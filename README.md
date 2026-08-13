@@ -10,15 +10,8 @@
 
 ## 🖼️ Screenshots
 
-> _Place your application screenshots/GIFs here (main window, tray icon, speedometer in action)._
+<img width="593" height="572" alt="635577197-92fd0a41-497b-4bb2-af60-4766651ea698" src="https://github.com/user-attachments/assets/e79d3ca6-9867-4b88-8436-05118f663d79" />
 
-<div align="center">
-
-| Main Window | Live Speedometer | System Tray |
-| :---: | :---: | :---: |
-| _screenshot.png_ | _screenshot.png_ | _screenshot.png_ |
-
-</div>
 
 ---
 
