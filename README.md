@@ -29,8 +29,20 @@ Perfect for:
 
 ---
 
-## 🔥 What's New in Official Release V1.0.0 🎉
+## 🔥 What's New in Latest Release 🎉
 
+### 📱 YunuUSBNet *(NEW RELEASE V1.2.5 🎉)*
+
+* 🚪 **Smart Startup Gatekeeper & GDI+ Engine:** Introduced an intelligent startup splash gate with high-quality bicubic image rendering (`yunu00.png` / `yunu01.png`). Scans Windows PnP hardware for official Android Vendor IDs (Google, Xiaomi, Samsung, Oppo, Realme, MediaTek, Transsion/Infinix) and opens automatically upon cable insertion. Includes an instant **Dev Bypass** for testing without physical devices.
+* 🛠️ **Protected Developer Mode & Dynamic UI:** Unlock real-time raw telemetry logs via password authentication (`yunu`). Features dynamic window geometry resizing (490px compact mode vs. 625px extended telemetry mode) with native `GUIResizeMode` protection to prevent button stretching.
+* ⚡ **Isolated ADB Engine (0ms Anti-Deadlock):** Complete overhaul of the ADB execution pipeline. Goodbye hanging processes and Stdout pipe buffer freezes! ADB commands now run via isolated temp stream redirection backed by a strict **2,500ms timeout watchdog** kill.
+* 📶 **Adaptive 75% Smart Data Tier Pipeline:** Integrated an unlimited data quota tracker driven purely by physical network octets. The progress bar automatically doubles target capacity (1 GB -> 2 GB -> 4 GB ...) whenever 75% of the current tier is reached.
+* 🛡️ **Continuous Explorer Popup Guard:** Say goodbye to annoying Windows AutoPlay / MTP File Explorer popups every time you plug in your phone! Automatically intercepts, detects, and closes newly spawned `CabinetWClass` windows in the background within a 4-second window.
+* 🤖 **Deep Android System Tuning:** Automatically injects shell optimizations before establishing the tunnel: disables conflicting phone Wi-Fi, wipes stubborn HTTP proxy settings, wakes up the screen (`keyevent 224`), dismisses keyguard, and whitelists Gnirehtet from Android battery Doze Mode.
+* 🪟 **Taskbar Crash Guard & 3-Way Exit Modal:** Handled Win32 `TaskbarCreated` messages so the notification tray icon automatically re-registers if `explorer.exe` crashes. Added an elegant close confirmation modal allowing users to choose between **Full Exit**, **Minimize to Tray**, or **Cancel**.
+* 📜 **Smart 3-Session Rolling Logger:** Replaced infinite log file bloat with a smart rolling parser that cleanly retains only the last 3 active sessions, complemented by millisecond-precise developer telemetry logs (`filelogdeveloper.txt`).
+* 🔄 **Dual-Track Jitter Recovery:** Added a 1.5-second debounce cooldown filter to handle physical USB cable shakes/jitters seamlessly without triggering destructive ADB resets.
+  
 This is the **first official release** of YunuUSBNet. Here's everything packed into it:
 
 ### 📊 Dual-Unit Live Speedometer & 4-State Color Matrix
