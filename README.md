@@ -9,8 +9,8 @@
 ---
 
 ## 🖼️ Screenshots
+<img width="536" height="623" alt="image (3)" src="https://github.com/user-attachments/assets/20332ca5-0c3e-418a-ba41-fb3cc4498f44" />
 
-<img width="593" height="572" alt="635577197-92fd0a41-497b-4bb2-af60-4766651ea698" src="https://github.com/user-attachments/assets/e79d3ca6-9867-4b88-8436-05118f663d79" />
 
 
 ---
@@ -44,6 +44,9 @@ Perfect for:
 * 🔄 **Dual-Track Jitter Recovery:** Added a 1.5-second debounce cooldown filter to handle physical USB cable shakes/jitters seamlessly without triggering destructive ADB resets.
   
 This is the **first official release** of YunuUSBNet. Here's everything packed into it:
+
+
+<img width="593" height="572" alt="635577197-92fd0a41-497b-4bb2-af60-4766651ea698" src="https://github.com/user-attachments/assets/e79d3ca6-9867-4b88-8436-05118f663d79" />
 
 ### 📊 Dual-Unit Live Speedometer & 4-State Color Matrix
 - Real-time network speed display showing **both** `KB/s` (or `MB/s`) **and** `Mbps` simultaneously — e.g. `768.0 KB/s (6.1 Mbps)`.
